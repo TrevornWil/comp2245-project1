@@ -133,3 +133,20 @@ h3 {
 .hero-image {
   display: block;
 }
+
+.features h2 {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.feature {
+  padding: 32px;
+  border-radius: 12px;
+  background-color: #F7FAFC;
+}
