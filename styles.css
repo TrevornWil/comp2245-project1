@@ -150,3 +150,60 @@ h3 {
   border-radius: 12px;
   background-color: #F7FAFC;
 }
+
+.visit {
+  background-color: #F0FFF4;
+}
+
+.visit .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 48px;
+}
+
+.hours {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hours caption,
+.hours th,
+.hours td {
+  text-align: left;
+}
+
+.hours caption {
+  margin-bottom: 12px;
+}
+
+.hours th,
+.hours td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #C6F6D5;
+}
+
+.hours thead tr {
+  color: #FFFFFF;
+  background-color: #2F855A;
+}
+
+.testimonial {
+  margin: 0;
+  border-left: 6px solid #2F855A;
+  border-radius: 0 6px 6px 0;
+  padding: 32px;
+  background-color: #FFFFFF;
+}
+
+.testimonial p {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.testimonial footer {
+  color: #4A5568;
+  font-size: 16px;
+  font-style: normal;
+}
