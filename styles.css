@@ -269,3 +269,20 @@ h3 {
   background-color: #C6F6D5;
   font-weight: bold;
 }
+
+.site-footer {
+  padding: 32px 0;
+  color: #FFFFFF;
+  background-color: #22543D;
+  font-size: 16px;
+}
+
+.site-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer p {
+  margin: 0;
+}
