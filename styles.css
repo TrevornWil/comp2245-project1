@@ -207,3 +207,65 @@ h3 {
   font-size: 16px;
   font-style: normal;
 }
+
+.signup h2,
+.signup > .container > p {
+  text-align: center;
+}
+
+.signup > .container > p {
+  margin-bottom: 32px;
+}
+
+#signup-form {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  border: 1px solid #A0AEC0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font: inherit;
+}
+
+.field input[aria-invalid="true"],
+.field select[aria-invalid="true"] {
+  border: 2px solid #C53030;
+}
+
+.error {
+  min-height: 24px;
+  margin: 4px 0 0;
+  color: #C53030;
+  font-size: 15px;
+}
+
+#signup-form .btn {
+  width: 100%;
+}
+
+#form-message {
+  max-width: 520px;
+  margin: 24px auto 0;
+}
+
+#form-message.success {
+  border-radius: 8px;
+  padding: 16px;
+  color: #22543D;
+  background-color: #C6F6D5;
+  font-weight: bold;
+}
