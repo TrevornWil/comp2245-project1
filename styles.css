@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* Whole page */
 body {
   margin: 0;
   color: #1A202C;
@@ -18,8 +19,7 @@ img {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding-right: 24px;
-  padding-left: 24px;
+  padding: 0 24px;
 }
 
 section {
@@ -61,6 +61,7 @@ h3 {
   background-color: #276749;
 }
 
+/* Header */
 .site-header {
   border-bottom: 1px solid #E2E8F0;
   padding: 16px 0;
@@ -101,13 +102,14 @@ h3 {
   text-decoration: underline;
 }
 
+/* Hero */
 .hero {
   background-color: #F0FFF4;
 }
 
 .hero .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 48px;
 }
@@ -117,6 +119,7 @@ h3 {
   font-size: 20px;
 }
 
+/* Why shop with us */
 .features h2 {
   margin-bottom: 48px;
   text-align: center;
@@ -124,7 +127,7 @@ h3 {
 
 .feature-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
 }
 
@@ -140,7 +143,7 @@ h3 {
 
 .visit .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 48px;
 }
@@ -185,6 +188,7 @@ h3 {
   font-size: 16px;
 }
 
+/* Join the mailing list */
 .signup h2,
 .signup > .container > p {
   text-align: center;
@@ -237,6 +241,7 @@ h3 {
   font-weight: bold;
 }
 
+/* Footer */
 .site-footer {
   padding: 32px 0;
   color: #FFFFFF;
