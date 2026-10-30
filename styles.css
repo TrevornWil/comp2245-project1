@@ -85,7 +85,6 @@ h3 {
 }
 
 .logo {
-  color: #22543D;
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -108,9 +107,6 @@ h3 {
 .logo:hover,
 .nav-links a:hover {
   text-decoration: underline;
-}
-
-.nav-links a:hover {
   color: #2F855A;
 }
 
@@ -128,10 +124,6 @@ h3 {
 .hero p {
   margin-bottom: 24px;
   font-size: 20px;
-}
-
-.hero-image {
-  display: block;
 }
 
 .features h2 {
@@ -205,7 +197,6 @@ h3 {
 .testimonial footer {
   color: #4A5568;
   font-size: 16px;
-  font-style: normal;
 }
 
 .signup h2,
