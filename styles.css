@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-/* Whole page */
 body {
   margin: 0;
   color: #1A202C;
@@ -61,7 +60,6 @@ h3 {
   background-color: #276749;
 }
 
-/* Header */
 .site-header {
   border-bottom: 1px solid #E2E8F0;
   padding: 16px 0;
@@ -93,21 +91,19 @@ h3 {
   text-decoration: none;
 }
 
-.logo:hover {
-  text-decoration: underline;
-}
-
+.logo:hover,
 .nav-links a:hover {
   color: #2F855A;
   text-decoration: underline;
 }
 
-/* Hero */
-.hero {
+.hero,
+.visit {
   background-color: #F0FFF4;
 }
 
-.hero .container {
+.hero .container,
+.visit .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -119,10 +115,14 @@ h3 {
   font-size: 20px;
 }
 
-/* Why shop with us */
+.features h2,
+.signup h2,
+.signup > .container > p {
+  text-align: center;
+}
+
 .features h2 {
   margin-bottom: 48px;
-  text-align: center;
 }
 
 .feature-list {
@@ -135,17 +135,6 @@ h3 {
   padding: 32px;
   border-radius: 12px;
   background-color: #F7FAFC;
-}
-
-.visit {
-  background-color: #F0FFF4;
-}
-
-.visit .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 48px;
 }
 
 .hours {
@@ -186,12 +175,6 @@ h3 {
 .testimonial footer {
   color: #4A5568;
   font-size: 16px;
-}
-
-/* Join the mailing list */
-.signup h2,
-.signup > .container > p {
-  text-align: center;
 }
 
 #signup-form {
@@ -241,7 +224,6 @@ h3 {
   font-weight: bold;
 }
 
-/* Footer */
 .site-footer {
   padding: 32px 0;
   color: #FFFFFF;
